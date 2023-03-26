@@ -22,6 +22,5 @@ public class Generics<T extends Comparable<T>> {
 		genericsProgram.FindMaxInt(b, a, c);
 		// test case 3 :- Given Max Number at 3rd Position return the Same Number
 		genericsProgram.FindMaxInt(c, b, a);
-
 	}
 }
