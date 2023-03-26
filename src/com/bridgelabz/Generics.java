@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class Generics {
+public class Generics<T extends Comparable<T>> {
 	public void FindMaxInt(Integer a, Integer b, Integer c) {
 		int max = a;
 		if ((b.compareTo(max)) > 0) {
